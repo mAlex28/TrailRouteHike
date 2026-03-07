@@ -22,7 +22,7 @@ collection = client.get_or_create_collection("trails")
 
 def safe_text(trail):
     raw = f"{trail['name']}. {trail['difficulty']}. {trail['distance_km']} km. {trail['description']}"
-    return raw[:1500] # well under limit
+    return raw[:1500] 
 
 # Ingest trails
 for trail in trails:
