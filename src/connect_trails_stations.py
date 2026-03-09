@@ -57,7 +57,7 @@ for trail in trails:
 
     trail["nearest_station"] = station["stationName"]
     trail["station_distance_km"] = round(dist, 2)
-    trail["train_crsCode"] = station.get("crsCode", "unkonwn")
+    trail["train_crsCode"] = station.get("crsCode", "unknown")
 
 # Save new dataset with trail + station
 with open("data/trails_with_stations.json", "w") as f:

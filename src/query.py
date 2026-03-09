@@ -1,4 +1,5 @@
 import chromadb
+from chromadb.config import Settings
 import ollama
 
 def embed_text(text):
@@ -10,7 +11,7 @@ def embed_text(text):
 
 def answer_question(query, top_k=3):
     # Connect to Vector DB
-    client = chromadb.PersistentClient(path="db")
+    client = chromadb.PersistentClient(path="db", settings=Settings(anonymized_telemetry=False))
     collection = client.get_or_create_collection("trails")
 
     # Embed user question
@@ -29,6 +30,8 @@ def answer_question(query, top_k=3):
             f"Trail name: {trail['name']}\n"
             f"Difficulty: {trail.get('difficulty')}\n"
             f"Distance: {trail.get('distance_km')} km\n"
+            f"Nearest station: {trail.get('nearest_station')}\n"
+            f"Station distance: {trail.get('station_distance_km')} km\n"
             f"Description: {trail.get('description')}\n"
         )
         context_blocks.append(block)
@@ -44,6 +47,7 @@ def answer_question(query, top_k=3):
         f"Relevant trails:\n{context}\n"
         "\nFormat the answer with:\n"
         "- Recommended trail\n"
+        "- Level of difficulty\n"
         "- Train station to get off (if known or implied)\n"
         "- Simple itinerary\n"
     )
@@ -54,3 +58,6 @@ def answer_question(query, top_k=3):
     )
 
     return response["response"]
+
+if __name__ == "__main__":
+    print(answer_question("Show me hikes accessible from Wales by train"))
