@@ -16,7 +16,7 @@ def embed_text(text):
 with open("data/trails.json", "r") as f:
     trails = json.load(f)
 
-# Initialise Chroma
+# Initialise ChromaDB
 client = chromadb.PersistentClient(path="db")
 collection = client.get_or_create_collection("trails")
 

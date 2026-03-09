@@ -48,7 +48,6 @@ def answer_question(query, top_k=3):
         "- Simple itinerary\n"
     )
 
-    # Call LLM
     response = ollama.generate(
         model="llama3",
         prompt=prompt

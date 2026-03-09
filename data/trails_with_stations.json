@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Pennine Way",
+    "difficulty": "Moderate",
+    "distance_km": 416.96,
+    "description": "Steeped in history and traversing spectacular landscapes, the iconic Pennine Way stretches for 268 miles (431 km) across England\u2019s wild northern uplands. The route follows England\u2019s rocky spine from the hills of the Derbyshire Peak District and the Yorkshire Dales, through the stunning Swaledale Valley, across the North Pennines and over Hadrian\u2019s Wall in Northumberland to the Cheviot Hills, ending in the Scottish Borders in Kirk Yetholm.",
+    "start_coord": [
+      53.37047,
+      -1.81682
+    ],
+    "nearest_station": "Edale",
+    "station_distance_km": 0.63,
+    "train_crsCode": "EDL"
+  },
+  {
+    "name": "Whitefield Moor, Hampshire",
+    "difficulty": "Moderate",
+    "distance_km": 10.61,
+    "description": "This walk includes some of the most interesting features of the New Forest. The route takes in part of Ober Water and all of the Tall Trees Trail lining the Rhinefield Drive with its amazing redwoods and firs planted in 1859. As you return to the start, you may spot shaggy Highland cattle around the pools and streams. By Dorothy Hamilton     ",
+    "start_coord": [
+      50.82226,
+      -1.61219
+    ],
+    "nearest_station": "Brockenhurst",
+    "station_distance_km": 2.75,
+    "train_crsCode": "BCU"
+  },
+  {
+    "name": "Offa's Dyke Path",
+    "difficulty": "Moderate",
+    "distance_km": 284.17,
+    "description": "Following the spectacular dyke King Offa ordered to be constructed in the 8th century Offa\u2019s Dyke Path provides 177 miles (285 Km) of stunning walking. Starting at Sedbury Cliffs near Chepstow on the banks of the Severn estuary it runs along the English Welsh border to reach the coastal town of Prestatyn on the shores of the Irish sea. Following valleys and rocky ridges the walk is ever changing but always fascinating.",
+    "start_coord": [
+      51.63254,
+      -2.64843
+    ],
+    "nearest_station": "Chepstow",
+    "station_distance_km": 1.83,
+    "train_crsCode": "CPW"
+  },
+  {
+    "name": "South Downs Way",
+    "difficulty": "Moderate",
+    "distance_km": 162.81,
+    "description": "The 100 mile (160 Km) long South Downs Way follows the old routes and droveways along the chalk escarpment and ridges of the South Downs. Enjoy the stunning long distance views, picturesque villages, thatched pubs and cosy tea rooms.",
+    "start_coord": [
+      51.06092,
+      -1.30797
+    ],
+    "nearest_station": "Winchester",
+    "station_distance_km": 1.13,
+    "train_crsCode": "WIN"
+  },
+  {
+    "name": "The Ridgeway",
+    "difficulty": "Moderate",
+    "distance_km": 138.94,
+    "description": "The Ridgeway, Britain\u2019s oldest road, follows the same route over the high ground used since prehistoric times by travellers, herdsmen and soldiers. Travel on a journey through time for 87 miles (139 Km). Experience wide, open views of rolling chalk downland and explore the many archaeological treasures close to the Trail including Neolithic long barrows, Bronze Age round barrows, Iron Age forts and the figures of white horses cut into the chalk. Relax in the evening at a cosy pub in one of the villages or small towns along the trail.",
+    "start_coord": [
+      51.41158,
+      -1.83057
+    ],
+    "nearest_station": "Pewsey",
+    "station_distance_km": 8.71,
+    "train_crsCode": "PEW"
+  },
+  {
+    "name": "North Downs Way",
+    "difficulty": "Moderate",
+    "distance_km": 203.59,
+    "description": "The North Downs Way National Trail is 153 mile trail through coast and countryside, with easy access from London. Walk or cycle across stunning chalk escarpments, pass through the Surrey Hills and Kent Downs Areas of Outstanding Natural Beauty, and over wooded hills and magnificent valleys.",
+    "start_coord": [
+      51.21286,
+      -0.7938
+    ],
+    "nearest_station": "Farnham",
+    "station_distance_km": 0.17,
+    "train_crsCode": "FNH"
+  },
+  {
+    "name": "Yorkshire Wolds Way",
+    "difficulty": "Moderate",
+    "distance_km": 124.57,
+    "description": "The Yorkshire Wolds Way wends for 79 mile (127 km) through some of the most tranquil and gentle countryside in England. From the banks of the mighty Humber estuary, along wooded slopes and through serene dry valleys, the walk climbs gently onto the airy tops of the rolling hills where on a clear day \"you can see forever\". With vineyards, lavender farms and Buddhist centres as well as cosy welcoming pubs it\u2019s a trail of surprises.",
+    "start_coord": [
+      53.71732,
+      -0.43466
+    ],
+    "nearest_station": "Hessle",
+    "station_distance_km": 0.49,
+    "train_crsCode": "HES"
+  },
+  {
+    "name": "Peddars Way and Norfolk Coast Path",
+    "difficulty": "Moderate",
+    "distance_km": 151.95,
+    "description": "Whether it\u2019s the deep history of early man, the medieval ports and churches of the north coast, big-sky views or the culinary adventures made possible by some of the country\u2019s finest pubs and local producers, there\u2019s something for everyone along the Peddars Way and Norfolk Coast Path National Trail.",
+    "start_coord": [
+      52.39056,
+      0.85482
+    ],
+    "nearest_station": "Harling Road",
+    "station_distance_km": 7.94,
+    "train_crsCode": "HRD"
+  },
+  {
+    "name": "Thames Path",
+    "difficulty": "Moderate",
+    "distance_km": 294.93,
+    "description": "Following England's best known river for 185 as it meanders from its source in the Cotswolds through several rural counties and on into the heart of London. Enjoy peaceful water meadows rich in wildlife, historic towns and cities and many lovely villages, finishing at Woolwich just a few miles from the sea.",
+    "start_coord": [
+      51.69442,
+      -2.02951
+    ],
+    "nearest_station": "Kemble",
+    "station_distance_km": 2.07,
+    "train_crsCode": "KEM"
+  },
+  {
+    "name": "Hadrian's Wall Path",
+    "difficulty": "Moderate",
+    "distance_km": 138.13,
+    "description": "Following the historic UNESCO World Heritage Site of Hadrian\u2019s Wall from coast to coast, the Hadrian\u2019s Wall Path National Trail is an 84-mile (135 km) pathway passing through a diverse landscape where magnificent moorland gives way to rolling fields and there are dozens of sights to behold.",
+    "start_coord": [
+      54.98871,
+      -1.53101
+    ],
+    "nearest_station": "Heworth",
+    "station_distance_km": 4.37,
+    "train_crsCode": "HEW"
+  },
+  {
+    "name": "Cotswold Way",
+    "difficulty": "Moderate",
+    "distance_km": 161.06,
+    "description": "With over 102 miles (164km) of magical walking, magnificent views, ancient sites and beautiful villages, the Cotswold Way offers a taste of the South you won\u2019t forget. The route offers a quintessentially English experience through flower-filled meadows, wonderful beech woodland, charming towns and villages and past historic sites \u2013 with amazing views from the Cotswold escarpment. ",
+    "start_coord": [
+      51.3812,
+      -2.35887
+    ],
+    "nearest_station": "Bath Spa",
+    "station_distance_km": 0.39,
+    "train_crsCode": "BTH"
+  },
+  {
+    "name": "Pennine Bridleway",
+    "difficulty": "Moderate",
+    "distance_km": 16.29,
+    "description": "A 10 mile circuit, the Settle Loop is part of the Pennine Bridleway National Trail.  This route starts and finishes in Settle and passes through the wonderful limestone uplands of the Yorkshire Dales National Park, with spectacular views across Malham Tarn.  Settle is on the iconic Settle to Carlisle Railway line and is a working town with a popular market and a good range of independent shops and plenty of places to eat and drink.  It is recommended to walk the route anti-clockwise to avoid a steep climb out of Settle at the start of the route, but it can be enjoyed in either direction.",
+    "start_coord": [
+      54.06874,
+      -2.27538
+    ],
+    "nearest_station": "Settle",
+    "station_distance_km": 0.4,
+    "train_crsCode": "SET"
+  },
+  {
+    "name": "Cleveland Way",
+    "difficulty": "Moderate",
+    "distance_km": 174.1,
+    "description": "The 109 mile (175km) Cleveland Way is one of England\u2019s original National Trails. Starting at Helmsley, the first half crosses the North York Moors National Park, boasting great vistas from sweeping heather moorlands. Upon reaching the coast at Saltburn-by-the-Sea, the second half of the route then follows the North Yorkshire coast as far as Filey, taking in the highest cliffs in eastern England at Boulby.",
+    "start_coord": [
+      54.24679,
+      -1.06539
+    ],
+    "nearest_station": "Thirsk",
+    "station_distance_km": 20.07,
+    "train_crsCode": "THI"
+  },
+  {
+    "name": "South West Coast Path",
+    "difficulty": "Moderate",
+    "distance_km": 1024.0,
+    "description": "The South West Coast Path is a 630 mile (1,014 km) journey along the coastline of England\u2019s southwest peninsula. Running from Minehead in Somerset to Poole in Dorset, the longest of England\u2019s National Trails has a wealth of stunning natural scenery, sea views, pretty ports and historic county towns. The Path has won numerous awards and offers a truly unique experience: this is walking at its most challenging and most rewarding.",
+    "start_coord": [
+      51.21104,
+      -3.47359
+    ],
+    "nearest_station": "Rhoose Cardiff Airport",
+    "station_distance_km": 21.48,
+    "train_crsCode": "RIA"
+  },
+  {
+    "name": "Jacobs ladder",
+    "difficulty": "Hard",
+    "distance_km": 14.82,
+    "description": "Jacob's Ladder on Pen y Fan is a notoriously steep, kilometer-long, stone-stepped path located on the southeast side of the mountain, leading down towards Cribyn. Known for being a \"leg-breaker\" in the Fan Dance special forces challenge, it is a popular but challenging, strenuous ascent or descent that offers dramatic, scenic views of the Brecon Beacons",
+    "start_coord": [
+      53.3646,
+      -1.81552
+    ],
+    "nearest_station": "Edale",
+    "station_distance_km": 0.13,
+    "train_crsCode": "EDL"
+  },
+  {
+    "name": "Cadair Idris (Minffordd Path), Gwynedd",
+    "difficulty": "Hard",
+    "distance_km": 9.66,
+    "description": "This is one of the great British mountain walks, starting in thick oak woodland and rising to the immense rocky amphitheatre that surrounds the hidden lake of Lyn Cau. The approach to Cadair's true high point traverses a broad rocky ridgeline, climbs to a perfect pyramidal summit, then drops again before leading upwards through an ancient volcanic landscape to the trig point and shelter at Penygadair. From the 893m summit you're treated to magical views across the surrounding peaks and lakes, out to the west coast, and north to the Llyn Peninsula and the distant mountains of northern Snowdonia. This is a rocky and steep route on good paths, but requires care and navigation skills in low visibility. Go prepared for all weathers, with good outdoor gear and plenty of refreshments, and you'll come back telling tales of soaring peaks forged by mythical giants, crowned by rocks that are older than the dinosaurs.",
+    "start_coord": [
+      52.68668,
+      -3.87735
+    ],
+    "nearest_station": "Machynlleth",
+    "station_distance_km": 10.22,
+    "train_crsCode": "MCN"
+  },
+  {
+    "name": "Fairfield Horseshoe",
+    "difficulty": "Hard",
+    "distance_km": 15.19,
+    "description": "Fairfield Horseshoe is a classic circular hillwalking ridge walk route starting from Rydal or Ambleside in the English Lake District that takes in all the fells that surround the valley of the Rydal Beck. The walk is extremely popular and follows well defined paths throughout with no real difficulties; however, care should be taken on the summit of Fairfield in poor visibility as the plateau of that mountain is very flat and can be quite confusing, with the danger of steep drops to the north and west. The eastern side of the horseshoe from Low Sweden Bridge near Ambleside to the slopes of Hart Crag follows a high dry stone wall, covering some six kilometres, making navigation simple even in poor weather conditions.",
+    "start_coord": [
+      54.44691,
+      -2.98099
+    ],
+    "nearest_station": "Windermere",
+    "station_distance_km": 8.97,
+    "train_crsCode": "WDM"
+  },
+  {
+    "name": "Ben Nevis",
+    "difficulty": "Hard",
+    "distance_km": 15.0,
+    "description": "Ben Nevis is the highest mountain in Britain and it makes you work for every one of those 4411ft. It's a long, relentless climb from Achintee to Red Burn, and then up the zig-zags to the summit (and you have to come down the same way). But wait until at least May to climb it; in winter conditions it's for mountaineers only. By Nick Hallissey",
+    "start_coord": [
+      56.8107,
+      -5.07156
+    ],
+    "nearest_station": "Fort William",
+    "station_distance_km": 2.41,
+    "train_crsCode": "FTW"
+  },
+  {
+    "name": "Lake District, Grasmere",
+    "difficulty": "Easy",
+    "distance_km": 6.13,
+    "description": "This walk forms part of Ordnance Survey's 'Short Walks Made Easy' series, which offer leisurely walks between 1 and 5 miles, with simple to follow step-by-step instructions; essential logistical information including accessibility, parking & dog suitability; fascinating local information and nature guides; and stunning photography.",
+    "start_coord": [
+      54.45656,
+      -3.02017
+    ],
+    "nearest_station": "Windermere",
+    "station_distance_km": 11.36,
+    "train_crsCode": "WDM"
+  },
+  {
+    "name": "Falls of Foyers",
+    "difficulty": "Easy",
+    "distance_km": 5.24,
+    "description": "The Upper and Lower Falls of Foyers are located above Loch Ness and Foyers Bay, and make the basis for a great walking circuit for active families. This route starts above the falls (where you will find a cafe, carpark and toilets) and descends past the impressive Lower Falls to pass a wild gorge and reach Lower Foyers. The return route is up good forest tracks, to pass the Upper Falls. After this, a quiet road takes you back to the start. There are some steep ascents and descents in places. By Steve Goodier",
+    "start_coord": [
+      57.24859,
+      -4.48998
+    ],
+    "nearest_station": "Beauly",
+    "station_distance_km": 25.54,
+    "train_crsCode": "BEL"
+  },
+  {
+    "name": "Bath Skyline",
+    "difficulty": "Easy",
+    "distance_km": 9.1,
+    "description": "Bath is perfectly designed for panoramic cityscapes. It is built from honey-golden limestone and surrounded by hills, from which the city can show off its Regency crescents and Gothic abbey. The National Trust's free, well-waymarked Skyline Walk winds through woods and fields above the eastern edge of the city, passing splendid views. By Phoebe Taplin",
+    "start_coord": [
+      51.38091,
+      -2.34559
+    ],
+    "nearest_station": "Bath Spa",
+    "station_distance_km": 0.81,
+    "train_crsCode": "BTH"
+  },
+  {
+    "name": "Four Waterfalls Walk",
+    "difficulty": "Moderate",
+    "distance_km": 7.78,
+    "description": "The sublime nature of waterfalls have always held a thunderous appeal for lovers of the wild. The evocative names given to the 'four waterfalls' in Waterfall Country include Sgwd Clun-Gwyn (Fall of the White Meadow) and Sgwd yr Eira (Fall of Snow). They form part of the rivers Mellte and Hepste.",
+    "start_coord": [
+      51.79995,
+      -3.54475
+    ],
+    "nearest_station": "Aberdare",
+    "station_distance_km": 11.75,
+    "train_crsCode": "ABA"
+  },
+  {
+    "name": "Luds Church and the Roaches",
+    "difficulty": "Moderate",
+    "distance_km": 10.93,
+    "description": "The jagged ridge of the Roaches is one of the most popular outdoor locations in the Peak District National Park. The name is a corruption of the French for rocks - roches. It was here on the gritstone crags that the \u2018working class revolution\u2019 in climbing took place in the 1950s. Manchester lads, Joe Brown, a builder, and Don Whillans, a plumber, went on to become legends within the climbing fraternity by developing new rock climbing techniques wearing gym shoes and using Joe\u2019s mother\u2019s discarded clothes line as a rope. Other, less tangible legends, surround this long outcrop, several of them attached to Doxey Pool. Locals speak in hushed voices of a young mermaid, who lived in the pool but was captured by a group of men. If the stories are to be believed her ghost can still be heard singing through the mist. Lurking in the darkest depths of the pool is Jenny Greenteeth, a hideous monster with green skin, long hair and sharp teeth, who grabs the ankles of anyone unfortunate enough to get too close, dragging them to a watery grave.Sir gawain and the Green Knight: But the greatest legend associated with the Roaches is the Arthurian tale of Sir Gawain and the Green Knight. According to the 14th-century poem a knight on horseback, cloaked entirely in green, gatecrashed a feast at Camelot and challenged the Knights of the Round Table. Sir Gawain rose to the challenge and beheaded the Green Knight but the latter retrieved his head and laughingly challenged Sir Gawain to meet with him again, in a year\u2019s time, at the Green Chapel. This has been identified as Lud\u2019s Church, near the Roaches. In the 1950s Professor Ralph Elliot, now of the University of Adelaide in Australia, identified the Roaches as the general location of the chapel from the text. Great crooked crags, cruelly jagged, the bristling barbs of rock seemed to brush the sky Professor Elliot\u2019s theory was supported by a group of linguists, working on the poem at the same time, who placed the work in the same 15-mile (25km) radius. The professor and a group of students from Keele University, where he was then based, tramped all over the countryside looking for a suitable cave to match the poetic description. A hole in each end and on either side, And overgrown with grass and great patches All hollow it was within, only an old cavern Or the crevice of an ancient crag Lud\u2019s Church fitted the bill. This rocky cleft was created by a mass of sandstone slipping away from the slope of the hill. It was here that Sir Gawain kept his rendezvous with the Green Knight resulting in that ghostly gentleman losing his head for a second time.While you're there: Leek is a magnet for antique hunters. As well as having a host of antique dealers, there\u2019s an open-air craft and antique market each Saturday in the historic Market Square. Other markets include the Butter Market, selling mainly fresh traditional produce, on Wednesday, Friday and Saturday. Also worth visiting is the water-powered corn mill at Brindley\u2019s Mill.Where to eat and drink: The Roaches Tearoom at Paddock Farm sits beneath the rocky outcrop of Hen\u2019s Cloud almost opposite the car parking area. The food is home-made, excellent and there\u2019s plenty of it. There\u2019s a conservatory overlooking a herb garden and superb views across Tittesworth Reservoir. It\u2019s open daily all year.",
+    "start_coord": [
+      53.1562,
+      -1.99498
+    ],
+    "nearest_station": "Buxton",
+    "station_distance_km": 12.82,
+    "train_crsCode": "BUX"
+  },
+  {
+    "name": "Balmoral Cairns, Aberdeenshire",
+    "difficulty": "Moderate",
+    "distance_km": 9.91,
+    "description": "Cairns are man-made mounds of stone. Some mark high points and others mark trails. But on the Balmoral Estate in the southeast quarter of the Cairngorms National Park, there are 11 cairns more elaborate than any others you'll find in Britain. Built for royalty, the Balmoral cairns mark important events in the lives of Queen Victoria and her family, who bought Balmoral Castle in 1852. It remains a favourite residence of the current queen. Building the cairns was a family affair, with each member of Victoria's large family and entourage placing stones. Most celebrate her children's marriages, but the largest \u2013 a huge pyramid erected in 1862 \u2013 commemorates the passing of her beloved husband Prince Albert. This walk explores forest trails linking eight of the cairns, including the oldest and grandest. Through breaks in the clustered ranks of Scots pine, you're treated to sweeping views over Deeside and the castle, and a window on the majestic lines of Lochnagar. Rising to 3789 feet, this mountain easily earns its status as a Munro. By Philip Thomas",
+    "start_coord": [
+      57.03958,
+      -3.2136
+    ],
+    "nearest_station": "Aviemore",
+    "station_distance_km": 40.67,
+    "train_crsCode": "AVM"
+  }
+]
