@@ -48,6 +48,7 @@ def answer_question(query, top_k=3):
         "\nFormat the answer with:\n"
         "- Recommended trail\n"
         "- Level of difficulty\n"
+        "- Trail distance\n"
         "- Train station to get off (if known or implied)\n"
         "- Simple itinerary\n"
     )
