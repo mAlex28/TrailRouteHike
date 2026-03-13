@@ -4,7 +4,7 @@ import json
 import pydeck as pdk
 from src.query import answer_question
 
-st.set_page_config(page_title="TrailRouteHike", layout="wide")
+st.set_page_config(page_title="TrackAndTrail", layout="wide")
 
 # ---- Styles ----
 st.markdown(
@@ -247,7 +247,7 @@ if plan_btn:
         else:
             left.info("No trails match your filters.")
             st.session_state.selected_trail = None
-            
+
 # ---- Surprise me button ----
 if surprise_btn:
     if filtered_df.empty:
