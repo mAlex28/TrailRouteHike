@@ -23,9 +23,9 @@ collection = client.get_or_create_collection("trails")
 def safe_text(trail):
     raw = (
         f"{trail['name']}. "
+        f"Located near {trail.get('nearest_station')}. "
         f"{trail['difficulty']} difficulty. "
         f"{trail['distance_km']} km hike. "
-        f"Nearest train station: {trail.get('nearest_station')}. "
         f"{trail['description']}"
     )
     return raw[:1500] 
@@ -43,5 +43,3 @@ for trail in trails:
     )
 
 print("Ingestion complete")
-
-

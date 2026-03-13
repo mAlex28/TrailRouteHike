@@ -23,9 +23,11 @@ def answer_question(query, top_k=3):
         n_results=top_k
     )
 
+    trails = results["metadatas"][0]
+
     # Build context for LLM metadata
     context_blocks = []
-    for trail in results["metadatas"][0]:
+    for trail in trails:
         block = (
             f"Trail name: {trail['name']}\n"
             f"Difficulty: {trail.get('difficulty')}\n"
@@ -41,16 +43,21 @@ def answer_question(query, top_k=3):
     # Prompt for Llama 3
     prompt = (
         "You are a hiking assistant.\n"
-        "Use ONLY the provided trail context to answer the user.\n"
+        "Use ONLY the provided trail context.\n"
         "Do not invent trails that are not in the context.\n\n"
+
         f"User question: {query}\n\n"
-        f"Relevant trails:\n{context}\n"
-        "\nFormat the answer with:\n"
-        "- Recommended trail\n"
-        "- Level of difficulty\n"
-        "- Trail distance\n"
-        "- Train station to get off (if known or implied)\n"
-        "- Simple itinerary\n"
+        f"Relevant trails:\n{context}\n\n"
+
+        "Respond EXACTLY in this format:\n\n"
+
+        "Recommended trail: <trail name>\n"
+        "Location: <location and country>\n"
+        "Difficulty: <difficulty>\n"
+        "Distance: <distance>\n"
+        "Train station: <station>\n\n"
+
+        "Simple Itinerary:\n"
     )
 
     response = ollama.generate(
@@ -58,7 +65,7 @@ def answer_question(query, top_k=3):
         prompt=prompt
     )
 
-    return response["response"]
+    return response["response"], trails[0]
 
-if __name__ == "__main__":
-    print(answer_question("Show me hikes accessible from Wales by train"))
+# if __name__ == "__main__":
+#     print(answer_question("Show me hikes accessible from Wales by train"))
