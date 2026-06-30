@@ -43,7 +43,7 @@ conda create -n trailroutehike-env python=3.11
 conda activate trailroutehike-env
 ```
 
-### 3. Install dependencies and pull rquired Ollama models
+### 3. Install dependencies and pull rquired Ollama models (to run locally)
 
 ```bash
 pip install -r requirements.txt

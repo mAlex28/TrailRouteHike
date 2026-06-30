@@ -1,16 +1,12 @@
 import json
 import chromadb
 from chromadb.config import Settings
-import subprocess
-import uuid
-import ollama
 
+from sentence_transformers import SentenceTransformer
+
+_model = SentenceTransformer("all-MiniLM-L6-v2")  
 def embed_text(text):
-    response = ollama.embeddings(
-        model="mxbai-embed-large",
-        prompt=text
-    )
-    return response["embedding"]
+    return _model.encode(text).tolist()
 
 # Load trails.json
 with open("data/trails_with_stations.json", "r") as f:

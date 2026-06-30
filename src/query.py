@@ -1,13 +1,16 @@
 import chromadb
 from chromadb.config import Settings
-import ollama
+import anthropic
+from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer
 
+load_dotenv()
+
+client_anthropic = anthropic.Anthropic() 
+
+_model = SentenceTransformer("all-MiniLM-L6-v2")  
 def embed_text(text):
-    response = ollama.embeddings(
-        model="mxbai-embed-large",
-        prompt=text
-    )
-    return response["embedding"]
+    return _model.encode(text).tolist()
 
 def answer_question(query, top_k=3):
     # Connect to Vector DB
@@ -60,12 +63,13 @@ def answer_question(query, top_k=3):
         "Simple Itinerary:\n"
     )
 
-    response = ollama.generate(
-        model="llama3",
-        prompt=prompt
+    response = client_anthropic.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=500,
+        messages=[{"role": "user", "content": prompt}]
     )
 
-    return response["response"], trails[0]
+    return response.content[0].text, trails[0]
 
 # if __name__ == "__main__":
 #     print(answer_question("Show me hikes accessible from Wales by train"))
