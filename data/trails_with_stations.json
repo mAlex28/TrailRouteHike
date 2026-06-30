@@ -269,7 +269,7 @@
     "name": "Falls of Foyers",
     "difficulty": "Easy",
     "distance_km": 5.24,
-    "description": "The Upper and Lower Falls of Foyers are located above Loch Ness, Scotland and Foyers Bay, and make the basis for a great walking circuit for active families. This route starts above the falls (where you will find a cafe, carpark and toilets) and descends past the impressive Lower Falls to pass a wild gorge and reach Lower Foyers. The return route is up good forest tracks, to pass the Upper Falls. After this, a quiet road takes you back to the start. There are some steep ascents and descents in places. By Steve Goodier",
+    "description": "The Upper and Lower Falls of Foyers are located above Loch Ness and Foyers Bay, and make the basis for a great walking circuit for active families. This route starts above the falls (where you will find a cafe, carpark and toilets) and descends past the impressive Lower Falls to pass a wild gorge and reach Lower Foyers. The return route is up good forest tracks, to pass the Upper Falls. After this, a quiet road takes you back to the start. There are some steep ascents and descents in places. By Steve Goodier",
     "start_coord": [
       57.24859,
       -4.48998
@@ -334,5 +334,369 @@
     "nearest_station": "Aviemore",
     "station_distance_km": 40.67,
     "train_crsCode": "AVM"
+  },
+  {
+    "name": "The Northern Trek 8. Horton in Ribblesdale to Hawes",
+    "difficulty": "Moderate",
+    "distance_km": 21.83,
+    "description": "Horton in Ribblesdale is the starting point of Yorkshire\u2019s most famous walk - The Three Peaks (Pen-Y-Ghent, Whernside and Ingleborough). It\u2019s a tough walk of 24 miles and has to be completed in 12 hours. Every weekend in summer hundreds of people will walk it. It is a true right of passage for many Yorkshire folk, and will always be one of my favourite walks. It's a walk worth coming back for. You will undoubtably meet 'Three Peakers' whilst in Horton.\n \nHowever, The Northern Trek continues to follow The Pennine Way over the tops to Wensleydale. The paved path out of Horton is worth noting - it is the front cover photograph of Alfred Wainwrights famous book on The Pennine Way",
+    "start_coord": [
+      54.14968,
+      -2.29579
+    ],
+    "country": "England",
+    "nearest_station": "Horton in Ribblesdale",
+    "station_distance_km": 0.41,
+    "train_crsCode": "HIR"
+  },
+  {
+    "name": "King's seat",
+    "difficulty": "Moderate",
+    "distance_km": 4.09,
+    "description": "",
+    "start_coord": [
+      56.17189,
+      -3.67099
+    ],
+    "country": "Scotland",
+    "nearest_station": "Alloa",
+    "station_distance_km": 9.37,
+    "train_crsCode": "ALO"
+  },
+  {
+    "name": "The Great Glen Way, Scottish Highlands",
+    "difficulty": "Hard",
+    "distance_km": 119.57,
+    "description": "The Great Glen Way long-distance trail runs for 73 miles from coast-to-coast across the Scottish Highlands, linking the towns of Fort William and Inverness.",
+    "start_coord": [
+      56.82112,
+      -5.10749
+    ],
+    "country": "Scotland",
+    "nearest_station": "Fort William",
+    "station_distance_km": 0.07,
+    "train_crsCode": "FTW"
+  },
+  {
+    "name": "Glencoe Lochan Trail",
+    "difficulty": "Easy",
+    "distance_km": 2.48,
+    "description": "A gentle trail around the tranquil Glencoe Lochan and woodland, created by Lord Strathcona for his homesick Canadian wife. A wide, firm and smooth surfaced path, generally flat, but with short gentle gradients, broken up with rest points.  At the far end of the Lochan during times of high rainfall a section of the path up to 3 meters long may be covered in surface water. ",
+    "start_coord": [
+      56.68756,
+      -5.09678
+    ],
+    "country": "Scotland",
+    "nearest_station": "Fort William",
+    "station_distance_km": 14.81,
+    "train_crsCode": "FTW"
+  },
+  {
+    "name": "Loch Achtriochtan",
+    "difficulty": "Easy",
+    "distance_km": 3.79,
+    "description": "Loch Achtriochtan or Loch Trychardan is a small shallow freshwater loch located to the east of Glencoe village in Lochaber in the Scottish Highlands. It is now under the care of the National Trust for Scotland. ",
+    "start_coord": [
+      56.66431,
+      -5.04036
+    ],
+    "country": "Scotland",
+    "nearest_station": "Fort William",
+    "station_distance_km": 17.85,
+    "train_crsCode": "FTW"
+  },
+  {
+    "name": "Conic Hill, Stirlingshire",
+    "difficulty": "Moderate",
+    "distance_km": 6.32,
+    "description": "Conic Hill is a popular 361-meter hill in Balmaha, Scotland, offering panoramic views of Loch Lomond and its islands. Located on the Highland Boundary Fault, it is a renowned, easily accessible, and family-friendly section of the West Highland Way. The hike typically takes 1.5\u20133 hours to complete.",
+    "start_coord": [
+      56.08426,
+      -4.53965
+    ],
+    "country": "Scotland",
+    "nearest_station": "Balloch Central",
+    "station_distance_km": 9.44,
+    "train_crsCode": "BHC"
+  },
+  {
+    "name": "Cat Bells, Cumbria",
+    "difficulty": "Moderate",
+    "distance_km": 7.63,
+    "description": "From the moment you step on the fell you can start to enjoy sensational panoramic views over Keswick, Derwent Water and Borrowdale. Add to this to the West the views of Newlands Valley and the Western Fells making this walk unrivalled in spectacular views.",
+    "start_coord": [
+      54.57974,
+      -3.16709
+    ],
+    "country": "England",
+    "nearest_station": "Aspatria",
+    "station_distance_km": 22.6,
+    "train_crsCode": "ASP"
+  },
+  {
+    "name": "Scafell Pike, Cumbria",
+    "difficulty": "Hard",
+    "distance_km": 13.8,
+    "description": "Scafell Pike is England's highest, and perhaps most iconic, mountain. But standing atop its towering summit is not simply about bagging the country's loftiest peak. Scafell Pike is also the nation's greatest war memorial; a place of beauty and grandeur to pay tribute to fallen heroes. In 1919, the mountain was bequeathed to the nation in 'perpetual memory of the men...who fell for God and King, for freedom, peace and right in the Great War'. So, when you're hiking this gloriously rugged and airy route up Scafell Pike from Borrowdale, spend a quiet moment to think of those men - after all, you're enjoying the freedom they fought for. By James Forrest",
+    "start_coord": [
+      54.49916,
+      -3.18226
+    ],
+    "country": "England",
+    "nearest_station": "Ravenglass for Eskdale",
+    "station_distance_km": 21.68,
+    "train_crsCode": "RAV"
+  },
+  {
+    "name": "Slieve Donard, County Down",
+    "difficulty": "Hard",
+    "distance_km": 9.5,
+    "description": "At 850m, the summit of Slieve Donard is the highest point in Northern Ireland. It is also a supreme viewpoint on a clear day, with the Isle of Man, Wales and Scotland all visible on the skyline. Much of its charm stems from its location; the Irish Sea hugs the mountain\u2019s eastern base, while the charismatic peaks of the Mourne Mountains lie clustered to the west. No wonder it\u2019s a magnet for hikers, and the classic hillwalk in the province. ",
+    "start_coord": [
+      54.2053,
+      -5.89508
+    ],
+    "country": "Northern Ireland",
+    "nearest_station": "Stranraer",
+    "station_distance_km": 96.34,
+    "train_crsCode": "STR"
+  },
+  {
+    "name": "Seven Summits",
+    "difficulty": "Hard",
+    "distance_km": 30.53,
+    "description": "The Seven Sevens consist of a challenging 29km hike, over varied terrain and 2440m of elevation. It is an amazing adventure which takes in all of the summits over 700m found in the Magical Mournes, on a good day the course presents some of the best views that Ireland has on offer. Although known as the Seven Sevens in 2004 it was discovered that Slieve Meelmore only stands at 682m leaving only six mountains over the 700m mark, however it remains as part of the challenge to honor the tradition of the Seven Sevens.",
+    "start_coord": [
+      54.20417,
+      -5.90183
+    ],
+    "country": "Northern Ireland",
+    "nearest_station": "Stranraer",
+    "station_distance_km": 96.7,
+    "train_crsCode": "STR"
+  },
+  {
+    "name": "Glenariff Forest Park",
+    "difficulty": "Moderate",
+    "distance_km": 8.31,
+    "description": "Known as the Queen of the Antrim Glens, Glenariff is defined by forests, rivers and glacial escarpments. This route explores the waterfalls and woodland of Glenariff Forest Park, a 12km\u00b2 reserve that spans both sides of the valley. The rocky gorges and fast flowing waters of the Inver and Glenariff rivers are the main focal points, with some 22 waterfalls passed in the first kilometre of the walk alone. The route combines the red Waterfall Trail and the black Scenic Trail on a five-mile circuit, following maintained footpaths throughout. Note that there is an admission charge for both cars (\u00a35) and pedestrians (\u00a32) entering the park. Words: Helen Fairbairn",
+    "start_coord": [
+      55.01792,
+      -6.09861
+    ],
+    "country": "Northern Ireland",
+    "nearest_station": "Stranraer",
+    "station_distance_km": 69.6,
+    "train_crsCode": "STR"
+  },
+  {
+    "name": "Tollymore Forest Park",
+    "difficulty": "Easy",
+    "distance_km": 10.49,
+    "description": "Covering an area of almost 630 hectares at the foot of the Mourne mountains, Tollymore Forest Park has panoramic views of the surrounding mountains and the sea at Newcastle. It's open to the public all year.",
+    "start_coord": [
+      54.22405,
+      -5.94137
+    ],
+    "country": "Northern Ireland",
+    "nearest_station": "Stranraer",
+    "station_distance_km": 96.45,
+    "train_crsCode": "STR"
+  },
+  {
+    "name": "Black Mountain",
+    "difficulty": "Easy",
+    "distance_km": 9.6,
+    "description": "The top of the Black Mountain provides Belfast's biggest views, but it is surprisingly easy to walk there up a gentle, partly-paved path. On a good day, you can see as far as Cumbria, the Scottish coast and the Isle\u00a0of Man. On a misty or rainy day, you may be able to\u00a0see almost nothing except the boggy hillside ahead, but\u00a0you're unlikely to get lost\u00a0as a\u00a0clear path unrolls before your feet. These bleak hills are\u00a0grazed by peaceful cows and home to skylarks, which sing as they fly. Spring\u00a0and summer flowers like primroses or scabious bloom in the coarse grass and\u00a0kingcups glow yellow in\u00a0the tiny streams. If\u00a0you look\u00a0closely, you'll find butterflies and less showy moorland flowers too,\u00a0like the tormentil, pinkish lousewort and some tiny blue spikes of heath milkwort. By Phoebe Taplin",
+    "start_coord": [
+      54.59942,
+      -6.04211
+    ],
+    "country": "Northern Ireland",
+    "nearest_station": "Stranraer",
+    "station_distance_km": 73.83,
+    "train_crsCode": "STR"
+  },
+  {
+    "name": "Snowdon \u2013 Pyg Track & Miners' Track",
+    "difficulty": "Moderate",
+    "distance_km": 11.85,
+    "description": "A classic ascent of Snowdon, starting from Pen-y-Pass and heading up the Pyg Track to the summit. You return via the Miners' Track, passing directly the stunning mountain lakes of Glaslyn and Llyn Llydaw.",
+    "start_coord": [
+      53.08063,
+      -4.02037
+    ],
+    "country": "Wales",
+    "nearest_station": "Roman Bridge",
+    "station_distance_km": 7.76,
+    "train_crsCode": "RMB"
+  },
+  {
+    "name": "Snowdon - Llanberis Path",
+    "difficulty": "Moderate",
+    "distance_km": 14.39,
+    "description": "The Llanberis Path is undoubtedly the most popular in the National Park. Over 600,000 people reach the summit of Yr Wyddfa each year, and most walkers take the Llanberis Path to the peak.\n\n As one of the six main routes to the summit of Yr Wyddfa, the Llanberis path is a popular choice for those who are climbing Yr Wyddfa for the first time. While it\u2019s the longest route, it does offer the most gradual climb to the peak. \n\n While the Llanberis Path is often described as the \u2018easiest route to the summit\u2019, you should never underestimate any of the routes to the peak of Yr Wyddfa. Reaching the summit of Yr Wyddfa is a challenging undertaking. The\u00a0 National Park Authority classifies Llanberis Path as a hard and strenuous route. A good level of fitness is required and navigation skills are essential.",
+    "start_coord": [
+      53.11524,
+      -4.11872
+    ],
+    "country": "Wales",
+    "nearest_station": "Bangor (Gwynedd)",
+    "station_distance_km": 12.02,
+    "train_crsCode": "BNG"
+  },
+  {
+    "name": "Pen y Fan",
+    "difficulty": "Moderate",
+    "distance_km": 11.28,
+    "description": "The mountains of the Brecon Beacons National Park were made for \u2018big high, little effort\u2019 walking. They offer an almost infinite count of long, level grassy ridges that tower above deeply cloven cwms, offering fine views and providing easy access to the summits. Each massif has its own classic route, but the pick of the bunch must be the ascent of the \u2018big three\u2019 \u2013 Pen y Fan, Corn Du and Cribyn \u2013 from the beautiful Neuadd Reservoirs. This is a skyline walk par excellence, starting at a very respectable 440m and gaining the main southern ridge of Corn Du with only 200m of steep stuff to contend with. The next 4km is high-level hill-walking heaven as the ridge curls around the edge of the shapely Taf Fechan valley, gaining its height so gradually that you barely notice it. At the same time you get wonderful views in all directions, particularly at the halfway stage, when a slender, airy walkway known as Rhiw yr Ysgyfarnog (the ridge of the hare) provides a steep-sided head wall for Cwm Crew. Bwlch Duwynt marks the finish line for this one, and the starting post for the two tallest peaks in southern Britain. But the work\u2019s all done now and it\u2019s an easy task to gain both, with just the smallest amount of reascent separating the pair. There is a sting in the tail, though. It\u2019s over 200m down from Pen y Fan into its eastern col, and this leaves you 130m short of Cribyn\u2019s compact top. Have you the energy for one more climb? If not, there\u2019s an easy get-out \u2013 a well-trodden escape path that flanks the mountain to the south",
+    "start_coord": [
+      51.85218,
+      -3.40692
+    ],
+    "country": "Wales",
+    "nearest_station": "Merthyr Tydfil",
+    "station_distance_km": 12.04,
+    "train_crsCode": "MER"
+  },
+  {
+    "name": "Dragon's Back",
+    "difficulty": "Moderate",
+    "distance_km": 11.52,
+    "description": "This is a fantastic route if you have children who are obsessed with the mythical fire-breathing, barbed-tailed reptiles from their favourite stories. Granted, if you sell it to them like that, they might be a little underwhelmed on this walk, but the Dragon\u2019s Back is still a sight to behold, so named because the undulating hills and ridges resemble a sleeping dragon.\n\n Along this walk, you\u2019ll climb Waun Fach which is the highest point in the Black Mountains and also the second-highest mountain in the south of Britain with a summit height of 811 metres. Wild ponies roam and livestock graze in amongst the hills so keep your eyes peeled for this as you meander along the ups and downs on the spine of this sleeping giant. You may spot Castell Dinas hill fort along the way too, the highest castle in England and Wales, standing at 450 metres. Although a little harsher on the legs, it\u2019s worth keeping to the peaks of the ridges as the 360-degree views are out of this world.",
+    "start_coord": [
+      51.95951,
+      -3.20396
+    ],
+    "country": "Wales",
+    "nearest_station": "Ebbw Vale Town",
+    "station_distance_km": 19.74,
+    "train_crsCode": "EBB"
+  },
+  {
+    "name": "Waun Fach, Powys",
+    "difficulty": "Hard",
+    "distance_km": 11.4,
+    "description": "This excellent horseshoe route encircles the head of the Rhiangoll valley, taking in the highest castle in Wales, the Y Grib ridge (also known as the Dragon's Back), considered the finest ridge in the area, and the highest point of the Black Mountains, Waun Fach (810m), not a peak as such, but a large flat top. Thanks to repairs to Waun Fach paths (used in this walk) in recent years, the walking is a lot easier and more pleasant than in the past. By Fiona Barltrop",
+    "start_coord": [
+      51.95931,
+      -3.20331
+    ],
+    "country": "Wales",
+    "nearest_station": "Ebbw Vale Town",
+    "station_distance_km": 19.72,
+    "train_crsCode": "EBB"
+  },
+  {
+    "name": "Kinder Scout",
+    "difficulty": "Moderate",
+    "distance_km": 12.62,
+    "description": "",
+    "start_coord": [
+      53.36503,
+      -1.81621
+    ],
+    "country": "England",
+    "nearest_station": "Edale",
+    "station_distance_km": 0.08,
+    "train_crsCode": "EDL"
+  },
+  {
+    "name": "Cheddar Gorge, Somerset",
+    "difficulty": "Moderate",
+    "distance_km": 6.42,
+    "description": "Somerset\u2019s answer to the Grand Canyon, Cheddar Gorge began life 1.2 million years ago. How\u2019s that for extra mature? During cold periglacial periods, meltwater abraded the Carboniferous Limestone of the Mendip Hills, gradually scooping out the rocky chasm we see today. Admittedly not quite so wide, deep or long as its Arizonan lookalike, with its river now flowing underground, it\u2019s eye-popping all the same; nowhere more so than from its vertiginous rim, traversed by the Gorge Walk trail. Short but stirring, it\u2019s easily the most sensational 3\u00be-mile loop in the district. But it\u2019s not all about bumper views across the Somerset Levels. There are crag-hopping feral goats and hurtling peregrine falcons to spot. And from spring through to late summer, lime-loving wildflowers spangle the gorge, among them the rare little robin and Somerset\u2019s county flower, the Cheddar Pink.",
+    "start_coord": [
+      51.27886,
+      -2.77432
+    ],
+    "country": "England",
+    "nearest_station": "Worle",
+    "station_distance_km": 12.88,
+    "train_crsCode": "WOR"
+  },
+  {
+    "name": "Tolkien Trail (Ribble Valley)",
+    "difficulty": "Moderate",
+    "distance_km": 10.35,
+    "description": "The Tolkien Trail in the Ribble Valley is a scenic circular walk in Lancashire, England, closely associated with the famous author J. R. R. Tolkien. The route passes through charming countryside, including the village of Hurst Green, the grounds of Stonyhurst College, and along the peaceful River Ribble. It is believed that Tolkien found inspiration here while staying at the college, with the landscape influencing elements of his work, particularly The Lord of the Rings. The trail offers a mix of woodland paths, open fields, and riverside views, making it a popular and accessible walk for both literature enthusiasts and nature lovers.",
+    "start_coord": [
+      53.83651,
+      -2.47967
+    ],
+    "country": "England",
+    "nearest_station": "Langho",
+    "station_distance_km": 4.08,
+    "train_crsCode": "LHO"
+  },
+  {
+    "name": "Bleaklow",
+    "difficulty": "Hard",
+    "distance_km": 12.84,
+    "description": "Bleaklow in Derbyshire is a vast and atmospheric moorland plateau located in the Peak District, known for its wild, rugged beauty and remote feel. Characterised by peat bogs, heather, and gritstone formations, it offers a more challenging hiking experience compared to other areas in the national park. The area is also home to the wreckage site of a Bleaklow Bomber Crash, which has become a notable landmark for walkers. With sweeping views and a sense of isolation, Bleaklow appeals to experienced hikers seeking a dramatic and less crowded landscape.",
+    "start_coord": [
+      53.43291,
+      -1.86895
+    ],
+    "country": "England",
+    "nearest_station": "Glossop",
+    "station_distance_km": 5.48,
+    "train_crsCode": "GLO"
+  },
+  {
+    "name": "Golden Cap",
+    "difficulty": "Moderate",
+    "distance_km": 11.0,
+    "description": "Golden Cap in Dorset is the highest point on the south coast of England, offering striking views across the Jurassic Coast and the English Channel. Located within Jurassic Coast, a UNESCO World Heritage Site, the hill is known for its distinctive golden sandstone cliffs and rich geological history. The walk to the summit can be steep but rewarding, with paths passing through rolling countryside and coastal scenery. Popular with walkers and nature enthusiasts, Golden Cap provides a memorable combination of dramatic landscapes and panoramic coastal vistas.",
+    "start_coord": [
+      50.73394,
+      -2.83429
+    ],
+    "country": "England",
+    "nearest_station": "Axminster",
+    "station_distance_km": 13.05,
+    "train_crsCode": "AXM"
+  },
+  {
+    "name": "Studland & Old Harry Rock",
+    "difficulty": "Moderate",
+    "distance_km": 10.1,
+    "description": "Studland and Old Harry Rocks in Dorset offer a striking coastal walk combining sandy beaches, heathland, and dramatic chalk formations. Located along the Jurassic Coast, this area is famous for the iconic white stacks of Old Harry Rocks, which rise sharply from the sea. The route typically passes through Studland Bay, known for its sweeping shoreline and diverse wildlife habitats. With relatively gentle terrain and stunning sea views, it\u2019s a popular choice for a relaxed yet visually impressive coastal walk.",
+    "start_coord": [
+      50.64225,
+      -1.94743
+    ],
+    "country": "England",
+    "nearest_station": "Poole",
+    "station_distance_km": 8.85,
+    "train_crsCode": "POO"
+  },
+  {
+    "name": "Lyme Regis",
+    "difficulty": "Moderate",
+    "distance_km": 9.25,
+    "description": "Lyme Regis, located on the Dorset\u2013Devon border, is a charming coastal town known for its fossil-rich cliffs and historic seaside character. Part of the Jurassic Coast, it has long attracted visitors interested in geology and natural history, famously associated with fossil hunter Mary Anning. The area offers scenic coastal walks, including routes along the Cobb harbour and surrounding cliffs, with sweeping views of the English Channel. Combining picturesque streets, beaches, and scientific significance, Lyme Regis is a popular destination for both walkers and history enthusiasts.",
+    "start_coord": [
+      50.72445,
+      -2.94098
+    ],
+    "country": "England",
+    "nearest_station": "Axminster",
+    "station_distance_km": 7.58,
+    "train_crsCode": "AXM"
+  },
+  {
+    "name": "Corfe Castle",
+    "difficulty": "Moderate",
+    "distance_km": 10.93,
+    "description": "Corfe Castle in Dorset is a historic village dominated by the dramatic ruins of Corfe Castle, a medieval fortress built by William the Conqueror. Set within the rolling Purbeck Hills, the area offers scenic walking routes through countryside, woodland, and along parts of the Purbeck Ridge. The castle played a significant role in English history, particularly during the English Civil War, when it was partially destroyed. Today, it\u2019s a popular spot for walkers and history enthusiasts, combining striking views, rich heritage, and a picturesque village setting.",
+    "start_coord": [
+      50.63852,
+      -2.05717
+    ],
+    "country": "England",
+    "nearest_station": "Wareham",
+    "station_distance_km": 7.23,
+    "train_crsCode": "WRM"
   }
 ]

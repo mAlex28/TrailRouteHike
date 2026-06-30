@@ -38,7 +38,7 @@ h1, h2, h3 = st.columns([1,2,1])
 with h2:
     st.markdown(
         """
-        <h1 style='text-align: center;'>TrailStation</h1>
+        <h1 style='text-align: center;'>TrackAndTrail</h1>
         <p style='text-align: center;'>Plan train-accessible hikes across the UK</p>
         """,
         unsafe_allow_html=True
