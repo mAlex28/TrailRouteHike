@@ -33,6 +33,7 @@ export default function ItineraryCard({ trail }) {
       </div>
 
       <div className="tt-desc">{trail.description}</div>
+      {trail.itinerary && <div className="tt-desc tt-itinerary-text">{trail.itinerary}</div>}
     </div>
   );
 }

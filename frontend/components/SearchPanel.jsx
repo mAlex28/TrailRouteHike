@@ -10,6 +10,7 @@ export default function SearchPanel({
   onToggleShort,
   onPlan,
   onSurprise,
+  loading,
 }) {
   return (
     <>
@@ -18,7 +19,7 @@ export default function SearchPanel({
         <br />
         want to walk?
       </div>
-      <div className="tt-subheading">Tell us a town or region — we'll match a trail and the nearest station.</div>
+      <div className="tt-subheading">Where is your next adventure?</div>
 
       <input
         type="text"
@@ -34,10 +35,10 @@ export default function SearchPanel({
       <ShortHikeToggle on={shortOnly} onToggle={onToggleShort} />
 
       <div className="tt-actions">
-        <button type="button" className="tt-plan-btn" onClick={onPlan}>
-          Plan my hike
+        <button type="button" className="tt-plan-btn" onClick={onPlan} disabled={loading}>
+          {loading ? "Planning…" : "Plan my hike"}
         </button>
-        <button type="button" className="tt-surprise-btn" onClick={onSurprise}>
+        <button type="button" className="tt-surprise-btn" onClick={onSurprise} disabled={loading}>
           Surprise me
         </button>
       </div>

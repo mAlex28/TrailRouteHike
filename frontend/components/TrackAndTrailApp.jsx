@@ -7,8 +7,7 @@ import Header from "./Header";
 import SearchPanel from "./SearchPanel";
 import ItineraryCard from "./ItineraryCard";
 
-// Leaflet touches `window` at import time, so the map can only load in the
-// browser — never during server rendering.
+
 const MapPanel = dynamic(() => import("./MapPanel"), {
   ssr: false,
   loading: () => <div className="tt-map-wrap" />,
@@ -18,14 +17,10 @@ const UNITS = "mi";
 
 export default function TrackAndTrailApp() {
   const {
-    query,
-    setQuery,
-    difficulty,
-    setDifficulty,
-    shortOnly,
-    setShortOnly,
-    trail,
-    plan,
+    query, setQuery,
+    difficulty, setDifficulty,
+    shortOnly, setShortOnly,
+    trail, loading, error, plan,
   } = useTrailPlanner();
 
   const formatted = formatTrail(trail, UNITS);
@@ -46,7 +41,9 @@ export default function TrackAndTrailApp() {
                 onToggleShort={() => setShortOnly((v) => !v)}
                 onPlan={() => plan(false)}
                 onSurprise={() => plan(true)}
+                loading={loading}
               />
+              {error && <div className="tt-error">{error}</div>}
               <ItineraryCard trail={formatted} />
             </div>
             <MapPanel trail={trail} />

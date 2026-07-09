@@ -500,3 +500,8 @@ body {
   text-align: center;
   padding: 30px;
 }
+
+.tt-itinerary-text {
+  white-space: pre-line;
+  margin-top: 12px;
+}
