@@ -1,4 +1,5 @@
 
+import random
 from pathlib import Path
 import chromadb
 from chromadb.config import Settings
@@ -14,6 +15,8 @@ DB_PATH = BASE_DIR/"db"  # ChromaDB path
 _embedder = None
 _collection = None
 _client = None
+
+SHORT_HIKE_MAX_KM = 8.05 # under 5 miles
 
 def get_embedder():
     global _embedder
@@ -46,14 +49,35 @@ def pre_load():
 def embed_text(text):
     return get_embedder().encode(text).tolist()
 
-def retrieve_trails(query, top_k=3):
+def _build_where(difficulty, short_only):
+    """Chroma metadata filter"""
+    conditions = []
+    if difficulty and difficulty != "all":
+        conditions.append({"difficulty": {"$eq": difficulty}})
+    if short_only:
+        conditions.append({"distance_km": {"$lt": SHORT_HIKE_MAX_KM}})
+
+    if not conditions:
+        return None
+    if len(conditions) == 1:
+        return conditions[0]
+    return {"$and": conditions}
+
+def retrieve_trails(query, difficulty="all", short_only=False, top_k=3):
     """Embed the query and return the top_k matching trails' metadata."""
     results = get_collection().query(
         query_embeddings=[embed_text(query)],
         n_results=top_k,
-        # Step 2 will add: where={...} filters for difficulty / distance
+        where=_build_where(difficulty, short_only),
     )
     return results["metadatas"][0]
+
+def plan_trail(query, difficulty="all", short_only=False, surprise=False, top_k=3):
+    """Returns one trail dict, or None if nothing matches the filters."""
+    trails = retrieve_trails(query, difficulty, short_only, top_k=top_k)
+    if not trails:
+        return None
+    return random.choice(trails) if surprise else trails[0]
 
 def generate_itinerary(query, trails):
     """Build the context block from retrieved trails and ask client

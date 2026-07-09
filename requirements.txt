@@ -1,9 +1,0 @@
-streamlit
-pydeck
-chromadb
-ollama
-pandas
-sentence-transformers
-anthropic
-python-dotenv
-fastapi
