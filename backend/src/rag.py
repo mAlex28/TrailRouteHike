@@ -9,7 +9,7 @@ from sentence_transformers import SentenceTransformer
 load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent 
-DB_PATH = BASE_DIR / "db"  # ChromaDB path
+DB_PATH = BASE_DIR/"db"  # ChromaDB path
 
 _embedder = None
 _collection = None

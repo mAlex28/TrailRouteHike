@@ -2,11 +2,11 @@ import json
 import math
 
 # Load trails
-with open("data/trails.json", "r") as f:
+with open("backend/data/trails.json", "r") as f:
     trails = json.load(f)
 
 # Load stations
-with open("data/stations.json", "r") as f:
+with open("backend/data/stations.json", "r") as f:
     stations = json.load(f)
 
 # Haversine formula
@@ -36,6 +36,7 @@ def find_nearest_station(trail, stations):
 
     nearest = None
     min_distance = float("inf")
+    
 
     for station in stations:
         dist = haversine(
@@ -58,9 +59,10 @@ for trail in trails:
     trail["nearest_station"] = station["stationName"]
     trail["station_distance_km"] = round(dist, 2)
     trail["train_crsCode"] = station.get("crsCode", "unknown")
+    trail["station_coord"] = [station["lat"], station["long"]]
 
 # Save new dataset with trail + station
-with open("data/trails_with_stations.json", "w") as f:
+with open("backend/data/trails_with_stations.json", "w") as f:
     json.dump(trails, f, indent=2)
 
 print("Trail to Station linking complete")

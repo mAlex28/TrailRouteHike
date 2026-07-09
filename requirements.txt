@@ -6,3 +6,4 @@ pandas
 sentence-transformers
 anthropic
 python-dotenv
+fastapi
