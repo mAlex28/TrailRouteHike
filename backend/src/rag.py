@@ -100,7 +100,9 @@ def generate_itinerary(query, trails):
     prompt = (
         "You are a hiking assistant.\n"
         "Use ONLY the provided trail context.\n"
-        "Do not invent trails that are not in the context.\n\n"
+        "Do not invent trails that are not in the context.\n"
+        "Do not use emojis or em-dash anywhere in your response.\n"
+        "All responses must be in British English.\n\n"
 
         f"User question: {query}\n\n"
         f"Relevant trails:\n{context}\n\n"
