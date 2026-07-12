@@ -1,3 +1,13 @@
+function renderBold(text) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={i}>{part.slice(2, -2)}</strong>
+    ) : (
+      part
+    )
+  );
+}
+  
 export default function ItineraryCard({ trail }) {
   if (!trail) return null;
 
@@ -33,7 +43,7 @@ export default function ItineraryCard({ trail }) {
       </div>
 
       <div className="tt-desc">{trail.description}</div>
-      {trail.itinerary && <div className="tt-desc tt-itinerary-text">{trail.itinerary}</div>}
+      {trail.itinerary && (<div className="tt-desc tt-itinerary-text">{renderBold(trail.itinerary)}</div>)}
     </div>
   );
 }

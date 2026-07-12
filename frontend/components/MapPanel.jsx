@@ -36,6 +36,8 @@ export default function MapPanel({ trail }) {
       UK_CENTER,
       UK_ZOOM
     );
+    const observer = new ResizeObserver(() => map.invalidateSize());
+    observer.observe(mapElRef.current);
     L.tileLayer(TILE_URL, { attribution: TILE_ATTRIBUTION, subdomains: "abcd", maxZoom: 19 }).addTo(map);
     const group = L.layerGroup().addTo(map);
     mapRef.current = map;

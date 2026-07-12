@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-
+import shutil
 import chromadb
 from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
@@ -25,8 +25,7 @@ def safe_text(trail):
     return raw[:1500]
 
 def metadata(trail):
-    """Chroma metadata values must be scalars — flatten the coordinate
-    lists into individual lat/lon fields and drop anything non-scalar."""
+    """flatten the coordinate lists into individual lat/lon fields and drop anything non-scalar."""
     meta = {k: v for k, v in trail.items() if isinstance(v, (str, int, float, bool))}
 
     lat, lon = trail["start_coord"]
@@ -43,13 +42,10 @@ def metadata(trail):
 with open(DATA_PATH, "r") as f:
     trails = json.load(f)
 
-client = chromadb.PersistentClient(path=str(DB_PATH), settings=Settings(anonymized_telemetry=False))
+if DB_PATH.exists():
+    shutil.rmtree(DB_PATH)
 
-# Recreate the collection to avoid duplicate IDs
-try:
-    client.delete_collection("trails")
-except Exception:
-    pass
+client = chromadb.PersistentClient(path=str(DB_PATH), settings=Settings(anonymized_telemetry=False))
 collection = client.create_collection("trails")
 
 # Ingest trails

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Slieve Donard, County Down",
+    "difficulty": "Hard",
+    "distance_km": 9.5,
+    "description": "At 850m, the summit of Slieve Donard is the highest point in Northern Ireland. It is also a supreme viewpoint on a clear day, with the Isle of Man, Wales and Scotland all visible on the skyline. Much of its charm stems from its location; the Irish Sea hugs the mountain’s eastern base, while the charismatic peaks of the Mourne Mountains lie clustered to the west. No wonder it’s a magnet for hikers, and the classic hillwalk in the province. ",
+    "start_coord": [54.2053, -5.89508],
+    "country": "Northern Ireland"
+  },
+  {
+    "name": "Seven Summits",
+    "difficulty": "Hard",
+    "distance_km": 30.53,
+    "description": "The Seven Sevens consist of a challenging 29km hike, over varied terrain and 2440m of elevation. It is an amazing adventure which takes in all of the summits over 700m found in the Magical Mournes, on a good day the course presents some of the best views that Ireland has on offer. Although known as the Seven Sevens in 2004 it was discovered that Slieve Meelmore only stands at 682m leaving only six mountains over the 700m mark, however it remains as part of the challenge to honor the tradition of the Seven Sevens.",
+    "start_coord": [54.20417, -5.90183],
+    "country": "Northern Ireland"
+  },
+  {
+    "name": "Glenariff Forest Park",
+    "difficulty": "Moderate",
+    "distance_km": 8.31,
+    "description": "Known as the Queen of the Antrim Glens, Glenariff is defined by forests, rivers and glacial escarpments. This route explores the waterfalls and woodland of Glenariff Forest Park, a 12km² reserve that spans both sides of the valley. The rocky gorges and fast flowing waters of the Inver and Glenariff rivers are the main focal points, with some 22 waterfalls passed in the first kilometre of the walk alone. The route combines the red Waterfall Trail and the black Scenic Trail on a five-mile circuit, following maintained footpaths throughout. Note that there is an admission charge for both cars (£5) and pedestrians (£2) entering the park. Words: Helen Fairbairn",
+    "start_coord": [55.01792, -6.09861],
+    "country": "Northern Ireland"
+  },
+  {
+    "name": "Tollymore Forest Park",
+    "difficulty": "Easy",
+    "distance_km": 10.49,
+    "description": "Covering an area of almost 630 hectares at the foot of the Mourne mountains, Tollymore Forest Park has panoramic views of the surrounding mountains and the sea at Newcastle. It's open to the public all year.",
+    "start_coord": [54.22405, -5.94137],
+    "country": "Northern Ireland"
+  },
+  {
+    "name": "Black Mountain",
+    "difficulty": "Easy",
+    "distance_km": 9.6,
+    "description": "The top of the Black Mountain provides Belfast's biggest views, but it is surprisingly easy to walk there up a gentle, partly-paved path. On a good day, you can see as far as Cumbria, the Scottish coast and the Isle of Man. On a misty or rainy day, you may be able to see almost nothing except the boggy hillside ahead, but you're unlikely to get lost as a clear path unrolls before your feet. These bleak hills are grazed by peaceful cows and home to skylarks, which sing as they fly. Spring and summer flowers like primroses or scabious bloom in the coarse grass and kingcups glow yellow in the tiny streams. If you look closely, you'll find butterflies and less showy moorland flowers too, like the tormentil, pinkish lousewort and some tiny blue spikes of heath milkwort. By Phoebe Taplin",
+    "start_coord": [54.59942, -6.04211],
+    "country": "Northern Ireland"
+  }
+]

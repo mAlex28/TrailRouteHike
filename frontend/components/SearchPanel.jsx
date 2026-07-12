@@ -19,14 +19,14 @@ export default function SearchPanel({
         <br />
         want to walk?
       </div>
-      <div className="tt-subheading">Where is your next adventure?</div>
+      <div className="tt-subheading">Plan your next adventure...</div>
 
       <input
         type="text"
         className="tt-input"
         value={query}
         onChange={(e) => onQueryChange(e.target.value)}
-        placeholder="e.g. near Southampton"
+        placeholder="e.g. near Bath"
       />
 
       <div className="tt-label-mono">Difficulty</div>
