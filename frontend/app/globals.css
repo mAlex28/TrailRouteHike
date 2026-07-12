@@ -71,7 +71,7 @@ body {
 }
 
 .tt-page {
-  min-height: 100dvh;
+  height: 100dvh;
 }
 
 .tt-app {
@@ -153,27 +153,6 @@ body {
   grid-template-columns: minmax(0, 420px) 1fr;
 }
 
-@media (max-width: 860px) {
-  .tt-page,
-  .tt-app,
-  .tt-card {
-    height: auto;
-    overflow: visible;
-  }
-
-  .tt-body {
-    grid-template-columns: 1fr;
-  }
-
-  .tt-panel {
-    overflow-y: visible;
-    border-right: none;
-  }
-
-  .tt-map-wrap {
-    height: 55dvh;
-  }
-}
 
 .tt-panel {
   padding: 30px;
@@ -526,4 +505,26 @@ body {
 .tt-itinerary-text {
   white-space: pre-line;
   margin-top: 12px;
+}
+
+@media (max-width: 860px) {
+  .tt-page,
+  .tt-app,
+  .tt-card {
+    height: auto;
+    overflow: visible;
+  }
+
+  .tt-body {
+    grid-template-columns: 1fr;
+  }
+
+  .tt-panel {
+    overflow-y: visible;
+    border-right: none;
+  }
+
+  .tt-map-wrap {
+    height: 55dvh;
+  }
 }
