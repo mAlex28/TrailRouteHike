@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from src.rag import generate_itinerary, plan_trail, pre_load
+from src.rag import generate_itinerary, plan_trail, pre_load, suprise_trail
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -44,16 +44,20 @@ def to_response(trail, itinerary=None):
 
 @app.post("/api/trails/plan")
 def plan(req: PlanRequest):
-    trail = plan_trail(
-        req.query,
-        difficulty=req.difficulty,
-        short_only=req.short_only,
-        surprise=req.surprise,
-    )
+    if req.surprise:
+        trail = suprise_trail()
+    else:
+        trail = plan_trail(req.query, difficulty=req.difficulty, short_only=req.short_only)
+
     if trail is None:
         raise HTTPException(status_code=404, detail="No trail matches those filters")
 
-    itinerary = generate_itinerary(req.query, [trail]) if req.include_itinerary else None
+    itinerary_query = "Recommend this trail to me." if req.surprise else req.query
+    itinerary = generate_itinerary(itinerary_query, [trail]) if req.include_itinerary else None
+
+    if itinerary and itinerary.strip().splitlines()[0].startswith("NO_MATCH"):
+        raise HTTPException(status_code=404, detail="No trails match that location and filters")
+
     return to_response(trail, itinerary)
 
 
