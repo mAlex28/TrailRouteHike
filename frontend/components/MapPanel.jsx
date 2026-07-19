@@ -32,24 +32,26 @@ export default function MapPanel({ trail }) {
   const groupRef = useRef(null);
 
   useEffect(() => {
-    const map = L.map(mapElRef.current, { scrollWheelZoom: false, attributionControl: true }).setView(
-      UK_CENTER,
-      UK_ZOOM
-    );
-    const observer = new ResizeObserver(() => map.invalidateSize());
-    observer.observe(mapElRef.current);
+    const map = L.map(mapElRef.current, { scrollWheelZoom: false, attributionControl: true, zoomControl: false })
+      .setView(UK_CENTER, UK_ZOOM);
+    L.control.zoom({position: 'bottomright'}).addTo(map);
     L.tileLayer(TILE_URL, { attribution: TILE_ATTRIBUTION, subdomains: "abcd", maxZoom: 19 }).addTo(map);
+
     const group = L.layerGroup().addTo(map);
     mapRef.current = map;
     groupRef.current = group;
 
-    const resizeTimer = setTimeout(() => map.invalidateSize(), 350);
+
+    const observer = new ResizeObserver(() => {
+      if (mapRef.current) mapRef.current.invalidateSize();
+    });
+    observer.observe(mapElRef.current);
 
     return () => {
-      clearTimeout(resizeTimer);
-      map.remove();
+      observer.disconnect();   
       mapRef.current = null;
       groupRef.current = null;
+      map.remove();
     };
   }, []);
 

@@ -44,7 +44,13 @@ export default function TrackAndTrailApp() {
                 loading={loading}
               />
               {error && <div className="tt-error">{error}</div>}
-              <ItineraryCard trail={formatted} />
+              {!loading && !error && trail === null && (
+              <div className="tt-notice">
+                No trails match your search and filters. Try a different area, or widen
+                the difficulty and distance filters.
+              </div>
+            )}
+            <ItineraryCard trail={formatted} />
             </div>
             <MapPanel trail={trail} />
           </div>

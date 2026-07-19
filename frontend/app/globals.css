@@ -326,6 +326,18 @@ body {
   margin: -16px 0 20px;
 }
 
+.tt-notice {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a8432a;
+  background: #f3e2dc;
+  border: 1px solid #e6c9c0;
+  border-radius: 12px;
+  padding: 13px 15px;
+  margin-bottom: 20px;
+}
+
 .tt-itinerary {
   border-top: 1px solid var(--tt-divider);
   padding-top: 22px;

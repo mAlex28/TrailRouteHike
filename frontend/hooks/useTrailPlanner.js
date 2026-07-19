@@ -10,7 +10,7 @@ export function useTrailPlanner() {
   const [difficulty, setDifficulty] = useState("all")
   const [shortOnly, setShortOnly] = useState(false)
   const [trail, setTrail] = useState(null)
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   const plan = useCallback(
