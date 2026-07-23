@@ -11,7 +11,7 @@ export async function planTrail({ query, difficulty, shortOnly, surprise }) {
     }),
   })
 
-  if (res.status === 404) return null // backend says: no trail matches
+  if (res.status === 404) return null // no trail matches
   if (!res.ok) throw new Error(`Trail request failed (${res.status})`)
   return res.json()
 }
