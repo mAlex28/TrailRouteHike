@@ -3,16 +3,10 @@ from pathlib import Path
 import shutil
 import chromadb
 from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data" / "trails_with_stations.json"
 DB_PATH = BASE_DIR / "db"
-
-_model = SentenceTransformer("all-MiniLM-L6-v2")
-
-def embed_text(text):
-    return _model.encode(text).tolist()
 
 def safe_text(trail):
     raw = (
@@ -51,12 +45,10 @@ collection = client.create_collection("trails")
 # Ingest trails
 for trail in trails:
     trail_id = f"{trail['name']}_{trail['nearest_station']}"
-    text = safe_text(trail)
     collection.add(
         ids=[trail_id],
-        embeddings=[embed_text(text)],
         metadatas=[metadata(trail)],
-        documents=[text]
+        documents=[safe_text(trail)],   
     )
 
 print(f"Ingestion complete — {collection.count()} trails indexed")

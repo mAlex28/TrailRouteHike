@@ -5,7 +5,6 @@ import chromadb
 from chromadb.config import Settings
 import anthropic
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
@@ -18,12 +17,6 @@ _client = None
 
 SHORT_HIKE_MAX_KM = 8.05 # under 5 miles
 RELEVANCE_MAX_DISTANCE = 1.2 # check for routes within 1.2miles
-
-def get_embedder():
-    global _embedder
-    if _embedder is None:
-        _embedder = SentenceTransformer("all-MiniLM-L6-v2")  
-    return _embedder
 
 def get_collection():
     global _collection
@@ -40,15 +33,9 @@ def get_client():
     return _client
 
 def pre_load():
-    """Preload everything. Call once at server startup so the first
-    request doesn't pay the model-loading cost."""
-    get_embedder()
+    """Preload everything. Call once at server startup."""
     get_collection()
     get_client()
-
-
-def embed_text(text):
-    return get_embedder().encode(text).tolist()
 
 def _build_where(difficulty, short_only):
     """Chroma metadata filter"""
@@ -67,10 +54,10 @@ def _build_where(difficulty, short_only):
 def retrieve_trails(query, difficulty="all", short_only=False, top_k=3):
     """Embed the query and return the top_k matching trails' metadata."""
     results = get_collection().query(
-    query_embeddings=[embed_text(query)],
-    n_results=top_k,
-    where=_build_where(difficulty, short_only),
-    include=["metadatas", "distances"],
+        query_texts=[query],           
+        n_results=top_k,
+        where=_build_where(difficulty, short_only),
+        include=["metadatas", "distances"],
     )
     trails = []
     for meta, dist in zip(results["metadatas"][0], results["distances"][0]):
@@ -153,3 +140,5 @@ def answer_question(query, top_k=3):
 #   "If the trail is clearly not in the area the user asked about, open with "
 #         "one short sentence like: 'There are no trails matching your search near "
 #         "<area>, but here is the closest option available.' Then continue normally.\n\n"
+
+

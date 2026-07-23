@@ -24,7 +24,7 @@ itineraries.
 
 ## Demo
 
-**[Try it here]()**
+**[Try it here](https://trackandtrail.vercel.app/)**
 
 Demo video of the original v1 prototype:
 [![Watch the demo](https://i9.ytimg.com/vi_webp/-6zh02UyQmI/mqdefault.webp?v=69b4790f&sqp=CPjw0c0G&rs=AOn4CLAvnAsnmXDKw8gNr2BQHLBrV62Nxg)](https://youtu.be/-6zh02UyQmI)
@@ -69,7 +69,7 @@ npm install
 npm run dev
 ```
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Frontend** — Next.js (React), Leaflet + OpenStreetMap
 - **Backend** — FastAPI (Python)
