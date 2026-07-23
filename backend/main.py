@@ -61,6 +61,19 @@ def plan(req: PlanRequest):
     return to_response(trail, itinerary)
 
 
+from src.rag import get_collection
+
+@app.get("/api/debug")
+def debug():
+    coll = get_collection()
+    results = coll.query(query_texts=["hike near Edale"], n_results=3,
+                         include=["metadatas", "distances"])
+    return {
+        "count": coll.count(),
+        "sample_distances": results["distances"][0],
+        "sample_names": [m["name"] for m in results["metadatas"][0]],
+    }
+
 @app.get("/api/allgood")
 def allgood():
     return {"status": "ok"}
