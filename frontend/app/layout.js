@@ -7,7 +7,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "TrackAndTrail — train-accessible hikes across the UK",
+  title: "TrackAndTrail",
   description:
     "Find UK hiking trails you can reach by train. Enter a location, pick a difficulty, and get a trail plus the nearest station.",
 }
